@@ -16,22 +16,28 @@ Usage
 
 Options
 Manual Input: Allows you to manually enter values for `p`, `g`, `xA`, and `xB`. Ensure that `p` is a prime number, `g` is a primitive root of `p`, and `xA` and `xB` are private keys for parties A and B.
+
 Generate Random Values**: Generates random values for `p`, `g`, `xA`, and `xB` following the Diffie-Hellman key exchange algorithm. The program ensures that `p` is a prime number, `g` is a primitive root of `p`, and `xA` and `xB` are private keys for parties A and B.
 
 Input
 For manual input, you need to provide `p`, `g`, `xA`, and `xB` values as per the program's prompts.
+
 For generating random values, no user input is required.
 
 Output
 The program will display the generated public keys `yA` and `yB` for parties A and B, respectively.
+
 It will calculate and display the shared secret key for parties A and B, as well as the common key `k`.
 
 Important Notes
 The program uses the Square and Multiply Algorithm to perform modular exponentiation.
+
 It checks for the primality of `p` and whether `g` is a primitive root of `p`.
+
 Random values generated for `p`, `g`, `xA`, and `xB` are within specific ranges to ensure algorithm validity.
 
 Authors
+
 Shreya Wagley
 
 License
