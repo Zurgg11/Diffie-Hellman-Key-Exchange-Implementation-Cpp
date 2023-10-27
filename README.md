@@ -3,7 +3,7 @@ Diffie-Hellman Key Exchange
 Description:
 The Diffie-Hellman Key Exchange is a public-key cryptographic protocol that allows two parties to exchange a shared secret key securely over an insecure communication channel. This C++ program demonstrates the Diffie-Hellman key exchange algorithm using manual input or generating random values for `p`, `g`, `xA`, and `xB`.
 
-Usage
+Usage:
 1. Compile the program using a C++ compiler such as `g++`:
 
    g++ main.cpp -o diffie-hellman
@@ -21,23 +21,18 @@ Generate Random Values: Generates random values for `p`, `g`, `xA`, and `xB` fol
 
 Input:
 For manual input, you need to provide `p`, `g`, `xA`, and `xB` values as per the program's prompts.
-
 For generating random values, no user input is required.
 
 Output:
 The program will display the generated public keys `yA` and `yB` for parties A and B, respectively.
-
 It will calculate and display the shared secret key for parties A and B, as well as the common key `k`.
 
 Important Notes:
 The program uses the Square and Multiply Algorithm to perform modular exponentiation.
-
 It checks for the primality of `p` and whether `g` is a primitive root of `p`.
-
 Random values generated for `p`, `g`, `xA`, and `xB` are within specific ranges to ensure algorithm validity.
 
 Authors:
-
 Shreya Wagley
 
 License:
